@@ -22,8 +22,8 @@ The Website Project is designed to showcase restaurant's services in an attracti
 
 ## Installation
 
-Clone the repository: git clone https://github.com/your-username/website-project.git
-Navigate to the project directory: cd website-project
+Clone the repository: git clone https://github.com/AyoubhasbiDev/Little-lemon-restaurant.git
+Navigate to the project directory: cd Little-lemon-restaurant
 Run project : npm run dev
 
 ## Usage
