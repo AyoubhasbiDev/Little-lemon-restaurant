@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+.box-shadow {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+.bg-navbar-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #f2f3f7 91.61%
+  );
+}
+.sidebar {
+  animation: slide-top 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.custum__label {
+  font-family: "Poppins", sans-serif;
+}
+.custum__input {
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
